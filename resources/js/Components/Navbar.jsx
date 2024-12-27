@@ -6,11 +6,11 @@ export default function navbar({ children }) {
             <nav className="sticky z-50 top-0 flex m-2 justify-between items-center p-3 rounded-md bg-white shadow md:px-10 lg:px-20">
                 <div className="space-x-1 flex flex-wrap md:space-x-2">
                     <a
-                        href="#"
+                        href="#home"
                         className="flex flex-wrap p-2 rounded-full bg-[#ECEFF3] md:rounded items-center md:px-4"
                     >
                         <svg
-                            className="md:hidden"
+                            className="lg:hidden"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -30,16 +30,16 @@ export default function navbar({ children }) {
                                 fill="black"
                             />
                         </svg>
-                        <h2 className="hidden text-base text-slate-950 font-medium md:block">
-                            Home
+                        <h2 className="hidden text-base text-slate-950 font-medium lg:block">
+                            Beranda
                         </h2>
                     </a>
                     <a
-                        href="#"
+                        href="#about"
                         className="flex flex-wrap p-2 rounded-full md:rounded items-center md:px-4"
                     >
                         <svg
-                            className="md:hidden"
+                            className="lg:hidden"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -85,16 +85,16 @@ export default function navbar({ children }) {
                                 </g>
                             </g>
                         </svg>
-                        <h2 className="hidden text-base text-slate-950 font-medium md:block">
-                            Project
+                        <h2 className="hidden text-base text-slate-950 font-medium lg:block">
+                            Tentang Saya
                         </h2>
                     </a>
                     <a
-                        href="#"
+                        href="#project"
                         className="flex flex-wrap p-2 rounded-full md:rounded items-center md:px-4"
                     >
                         <svg
-                            className="md:hidden"
+                            className="lg:hidden"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -126,16 +126,16 @@ export default function navbar({ children }) {
                                 </g>
                             </g>
                         </svg>
-                        <h2 className="hidden text-base text-slate-950 font-medium md:block">
-                            About
+                        <h2 className="hidden text-base text-slate-950 font-medium lg:block">
+                            Proyek
                         </h2>
                     </a>
                     <a
-                        href="#"
+                        href="#contact"
                         className="flex flex-wrap p-2 rounded-full md:rounded items-center md:px-4"
                     >
                         <svg
-                            className="md:hidden"
+                            className="lg:hidden"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
@@ -155,14 +155,14 @@ export default function navbar({ children }) {
                                 fill="#334155"
                             />
                         </svg>
-                        <h2 className="hidden text-base text-slate-950 font-medium md:block">
-                            Contact
+                        <h2 className="hidden text-base text-slate-950 font-medium lg:block">
+                            Kontak
                         </h2>
                     </a>
                 </div>
 
                 <a
-                    href="#"
+                    href="#contact"
                     className="flex flex-wrap py-2 px-3 bg-slate-950 rounded-md text-sm items-center text-white font-medium shadow"
                 >
                     <svg
@@ -192,7 +192,7 @@ export default function navbar({ children }) {
                             fill="white"
                         />
                     </svg>
-                    Hire Me
+                    Hubungi Saya
                 </a>
             </nav>
             <main className="">{children}</main>
