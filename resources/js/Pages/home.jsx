@@ -152,7 +152,7 @@ export default function Home({ name }) {
                                 <a
                                     href="https://github.com/bgsaditiya"
                                     target="_blank"
-                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#181717]"
+                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#181717] hover:border-slate-900"
                                 >
                                     <svg
                                         role="img"
@@ -168,7 +168,7 @@ export default function Home({ name }) {
                                 <a
                                     href="https://linkedin.com/in/bgsaditiya"
                                     target="_blank"
-                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#0A66C2]"
+                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#0A66C2] hover:border-slate-900"
                                 >
                                     <svg
                                         role="img"
@@ -185,7 +185,7 @@ export default function Home({ name }) {
                                 <a
                                     href="https://www.instagram.com/bgsaditiya_/"
                                     target="_blank"
-                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#FF0069]"
+                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#FF0069] hover:border-slate-900"
                                 >
                                     <svg
                                         role="img"
@@ -201,7 +201,7 @@ export default function Home({ name }) {
                                 <a
                                     href="https://www.facebook.com/bgsaditiya/"
                                     target="_blank"
-                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#0866FF]"
+                                    className="p-2 rounded-full border border-slate-400 hover:fill-[#0866FF] hover:border-slate-900"
                                 >
                                     <svg
                                         role="img"
