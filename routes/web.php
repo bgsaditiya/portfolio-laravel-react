@@ -7,4 +7,5 @@ use Inertia\Inertia;
 //     return Inertia::render('home', ['name' => 'Bagas Aditia']);
 // });
 
-Route::inertia('/', 'home', ['name' => 'Bagas Aditia']);
+Route::inertia('/', 'home', ['bg' => 'bg-main']);
+Route::inertia('/typing-test', 'typing', ['bg' => 'bg-slate-950']);

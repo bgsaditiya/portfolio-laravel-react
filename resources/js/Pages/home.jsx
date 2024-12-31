@@ -584,7 +584,8 @@ export default function Home({ name }) {
                                         GitHub
                                     </a>
                                     <a
-                                        href="#"
+                                        href="/typing-test"
+                                        target="_blank"
                                         className="flex flex-wrap items-center rounded-md border text-sm border-slate-800 py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
                                         <svg
