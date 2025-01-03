@@ -8,4 +8,3 @@ use Inertia\Inertia;
 // });
 
 Route::inertia('/', 'home', ['bg' => 'bg-main']);
-Route::inertia('/typing-test', 'typing', ['bg' => 'bg-slate-950']);

@@ -131,7 +131,11 @@ export default function Home({ name }) {
                                     </svg>
                                     Hubungi Saya
                                 </a>
-                                <button className="flex flex-wrap py-2 px-4 rounded-md border border-slate-800 text-slate-800 items-center font-medium shadow">
+                                <a
+                                    href="/files/cv-bagas.pdf"
+                                    download
+                                    className="flex flex-wrap py-2 px-4 rounded-md border border-slate-800 text-slate-800 items-center font-medium shadow"
+                                >
                                     <svg
                                         className="mr-2"
                                         width="20"
@@ -146,7 +150,7 @@ export default function Home({ name }) {
                                         />
                                     </svg>
                                     Unduh CV
-                                </button>
+                                </a>
                             </div>
                             <div className="flex flex-row mt-4 md:mt-8 gap-2 justify-center md:justify-start">
                                 <a
@@ -247,26 +251,47 @@ export default function Home({ name }) {
                                 alt="Bagas Aditia"
                             />
                         </div>
-                        <div className="mt-6 text-center xl:w-3/5 xl:text-left xl:mt-0">
+                        <div className="mt-6 text-center xl:w-3/5 xl:text-left xl:mt-0 items-center">
                             <h1 className="font-semibold text-slate-950 text-xl mb-2">
                                 Web Developer – Membawa Ide Menjadi Realita
                                 Digital
                             </h1>
                             <p className="text-base font-sans text-slate-500 mx-4 mb-4 xl:text-balance xl:mt-4 xl:mx-0">
-                                Saya adalah seorang fresh graduate dan web
-                                developer dengan ketertarikan besar dalam
-                                membangun pengalaman digital yang fungsional dan
-                                menarik. Berbekal keterampilan dalam HTML, CSS,
-                                JavaScript, serta framework modern seperti
-                                React.js dan Laravel, saya telah mengerjakan
-                                berbagai proyek mulai dari website portofolio
-                                pribadi hingga aplikasi berbasis web. Saya
-                                senang memecahkan masalah, belajar teknologi
-                                baru, dan terus berinovasi dalam setiap proyek
-                                yang saya kerjakan. Portofolio ini adalah
-                                cerminan dari passion saya dalam dunia
-                                pengembangan web dan komitmen untuk terus
-                                berkembang di industri ini.
+                                Nama saya{" "}
+                                <span className="font-semibold text-slate-950">
+                                    Bagas Aditia
+                                </span>
+                                , saya adalah fresh graduate dari Universitas
+                                Teknologi Digital Indonesia dengan ketertarikan
+                                dalam{" "}
+                                <span className="font-semibold text-slate-950">
+                                    Web Developer
+                                </span>
+                                . Berbekal keterampilan dalam HTML, CSS,
+                                JavaScript, serta framework modern seperti{" "}
+                                <a
+                                    href="https://id.react.dev/"
+                                    target="_blank"
+                                    className="font-semibold text-react"
+                                >
+                                    React.js
+                                </a>{" "}
+                                dan{" "}
+                                <a
+                                    href="https://laravel.com/"
+                                    target="_blank"
+                                    className="font-semibold text-laravel"
+                                >
+                                    Laravel
+                                </a>
+                                , saya telah mengerjakan berbagai proyek mulai
+                                dari website portofolio pribadi hingga aplikasi
+                                berbasis web. Saya senang memecahkan masalah,
+                                belajar teknologi baru, dan terus berinovasi
+                                dalam setiap proyek yang saya kerjakan.
+                                Portofolio ini adalah cerminan dari passion saya
+                                dalam dunia pengembangan web dan komitmen untuk
+                                terus berkembang di industri ini.
                             </p>
                             <div className="flex flex-col xl:justify-start mx-4 xl:mx-0 mb-2">
                                 {/* <div className="hidden flex-wrap text-slate-950 items-center space-x-2 xl:flex mb-2">
@@ -278,7 +303,7 @@ export default function Home({ name }) {
                                 <div className="py-2 rounded-md mb-2 font-semibold">
                                     Keterampilan Teknis yang Saya Kuasai
                                 </div>
-                                <div className="flex flex-wrap justify-center mb-2 gap-2 xl:justify-start xl:gap-4">
+                                <div className="flex flex-wrap justify-center mb-2 gap-2 xl:justify-start xl:gap-4 font-medium">
                                     <div className="flex flex-wrap gap-2 py-2 px-4 rounded-md bg-main">
                                         <svg
                                             className="w-6 h-6 fill-[#F7DF1E]"
@@ -355,26 +380,12 @@ export default function Home({ name }) {
                                     Project
                                 </h1>
                             </div>
-                            <a
-                                href="#"
-                                className="flex flex-wrap px-4 py-2 text-slate-950 items-center space-x-2 rounded-md bg-white shadow"
-                            >
-                                <h1 className="font-medium text-sm">
-                                    View All
+                            <div className="flex flex-wrap py-[2px] px-2 bg-white rounded-full text-slate-700 items-center space-x-1">
+                                <span className="p-[2px] rounded-full bg-slate-700"></span>
+                                <h1 className="font-medium text-[12px] md:text-sm">
+                                    Recent Project
                                 </h1>
-                                <svg
-                                    width="20"
-                                    height="20"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M20.05 11.47L13.05 4.47C12.8571 4.28243 12.5787 4.21204 12.3198 4.28533C12.0609 4.35863 11.8608 4.56447 11.7948 4.82533C11.7289 5.08619 11.8071 5.36243 12 5.55L17.71 11.25H4.47998C4.06577 11.25 3.72998 11.5858 3.72998 12C3.72998 12.4142 4.06577 12.75 4.47998 12.75H17.7L12 18.45C11.857 18.5893 11.7764 18.7804 11.7764 18.98C11.7764 19.1796 11.857 19.3707 12 19.51C12.1378 19.6546 12.3302 19.7345 12.53 19.73C12.729 19.7309 12.9201 19.6516 13.06 19.51L20.06 12.51C20.3524 12.2172 20.3524 11.7428 20.06 11.45L20.05 11.47Z"
-                                        fill="black"
-                                    />
-                                </svg>
-                            </a>
+                            </div>
                         </div>
                         {/* <div className="flex flex-col space-y-2 mt-8 md:grid md:grid-cols-4 lg:grid-cols-3 md:gap-4 md:space-y-0">
                             <div className="flex justify-between bg-white rounded-md py-4 px-4 shadow-sm md:col-start-1 md:col-span-2 lg:col-span-1">
@@ -587,7 +598,8 @@ export default function Home({ name }) {
                                 </div>
                                 <div className="flex flex-wrap justify-end gap-2 md:justify-center lg:justify-end lg:mt-6">
                                     <a
-                                        href="#"
+                                        href="https://github.com/bgsaditiya/TypingTest-Laravel-React.git"
+                                        target="_blank"
                                         className="flex flex-wrap items-center rounded-md bg-black text-sm text-white py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
                                         <svg
@@ -604,7 +616,7 @@ export default function Home({ name }) {
                                         GitHub
                                     </a>
                                     <a
-                                        href="/typing-test"
+                                        href="https://www.typing.bgsaditiya.my.id"
                                         target="_blank"
                                         className="flex flex-wrap items-center rounded-md border text-sm border-slate-800 py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
@@ -650,7 +662,8 @@ export default function Home({ name }) {
                                 </div>
                                 <div className="flex flex-wrap justify-end gap-2 md:justify-center lg:justify-end lg:mt-6">
                                     <a
-                                        href="#"
+                                        href="https://github.com/bgsaditiya/fpgsuryajaya-proyek-skripsi.git"
+                                        target="_blank"
                                         className="flex flex-wrap items-center rounded-md bg-black text-sm text-white py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
                                         <svg
@@ -667,7 +680,7 @@ export default function Home({ name }) {
                                         GitHub
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://www.fpg.bgsaditiya.my.id"
                                         className="flex flex-wrap items-center rounded-md border text-sm border-slate-800 py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
                                         <svg
@@ -715,7 +728,8 @@ export default function Home({ name }) {
                                 </div>
                                 <div className="flex flex-wrap justify-end gap-2 md:justify-center lg:justify-end lg:mt-6">
                                     <a
-                                        href="#"
+                                        href="https://github.com/bgsaditiya/portfolio-laravel-react.git"
+                                        target="_blank"
                                         className="flex flex-wrap items-center rounded-md bg-black text-sm text-white py-1 px-2 text-center font-medium shadow lg:py-2 lg:px-3"
                                     >
                                         <svg
@@ -780,7 +794,7 @@ export default function Home({ name }) {
                             saya jika Anda sedang mencari developer, memiliki
                             pertanyaan, atau sekadar ingin terhubung."
                         </p>
-                        <div className="flex flex-col w-full">
+                        <div className="flex flex-col w-full my-4">
                             <a
                                 href="mailto:bagasaditiya11@gmail.com"
                                 className="flex flex-row text-center font-semibold text-lg items-center mb-2 hover:bg-main mx-auto py-1 px-2 rounded-md md:text-xl lg:text-2xl"
