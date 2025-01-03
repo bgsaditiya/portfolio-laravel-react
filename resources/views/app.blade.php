@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg">
+<body class="bg-main">
     <div class="container mx-auto md:px-20">
         @inertia
     </div>
